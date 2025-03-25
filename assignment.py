@@ -23,6 +23,6 @@ final_price = calculate_discount(price, discount_percent)
 
 # Print the result
 if final_price == price:
-    print(f"No discount applied. The original price is $", final_price:)
+    print("No discount applied. The original price is $ :", final_price)
 else:
-    print(f"The final price after applying the discount is $ ",final_price:)
+    print("The final price after applying the discount is $ :",final_price)
